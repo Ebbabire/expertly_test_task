@@ -100,7 +100,7 @@ const MatchCard: React.FC<MatchCardProps> = ({ match }) => {
         </div>
       </div>
 
-      <button className="ml-4 p-2 text-[#64748b] hover:text-white transition-colors">
+      <button className="ml-4 p-2 text-[#ebeff5] hover:text-white transition-colors">
         <MoreVertical size={18} />
       </button>
     </Link>

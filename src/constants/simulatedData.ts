@@ -3,11 +3,11 @@ import type { Event } from "../types";
 export const INITIAL_SIMULATED_MATCHES: Event[] = [
   {
     idEvent: "sim-1",
-    strEvent: "Arsenal vs Barcelona",
+    strEvent: "Arsenal vs Wycombe Wanderers",
     strLeague: "UEFA Champions League",
     idLeague: "4480",
     strHomeTeam: "Arsenal",
-    strAwayTeam: "Barcelona",
+    strAwayTeam: "Wycombe Wanderers",
     intHomeScore: "2",
     intAwayScore: "1",
     strStatus: "63'",
@@ -19,7 +19,7 @@ export const INITIAL_SIMULATED_MATCHES: Event[] = [
       "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
     idAwayTeam: "133739",
     strAwayTeamBadge:
-      "https://r2.thesportsdb.com/images/media/team/badge/e3e8jm1710341498.png",
+      "https://r2.thesportsdb.com/images/media/team/badge/avi3bu1688678934.png",
     strVenue: "Emirates Stadium",
     strCountry: "England",
     strThumb: "",
@@ -27,11 +27,11 @@ export const INITIAL_SIMULATED_MATCHES: Event[] = [
   },
   {
     idEvent: "sim-2",
-    strEvent: "Real Madrid vs Bayern Munich",
+    strEvent: "Real Madrid vs Bolton Wanderers",
     strLeague: "UEFA Champions League",
     idLeague: "4480",
     strHomeTeam: "Real Madrid",
-    strAwayTeam: "Bayern Munich",
+    strAwayTeam: "Bolton Wanderers",
     intHomeScore: "1",
     intAwayScore: "1",
     strStatus: "HT",
@@ -43,7 +43,7 @@ export const INITIAL_SIMULATED_MATCHES: Event[] = [
       "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
     idAwayTeam: "133674",
     strAwayTeamBadge:
-      "https://r2.thesportsdb.com/images/media/team/badge/dmkfzx1720529498.png",
+      "https://r2.thesportsdb.com/images/media/team/badge/yvxxrv1448808301.png",
     strVenue: "Santiago Bernabéu",
     strCountry: "Spain",
     strThumb: "",
@@ -51,11 +51,11 @@ export const INITIAL_SIMULATED_MATCHES: Event[] = [
   },
   {
     idEvent: "sim-3",
-    strEvent: "PSG vs Inter Milan",
+    strEvent: "PSG vs Lincoln City",
     strLeague: "UEFA Champions League",
     idLeague: "4480",
     strHomeTeam: "Paris Saint-Germain",
-    strAwayTeam: "Inter Milan",
+    strAwayTeam: "Lincoln City",
     intHomeScore: "0",
     intAwayScore: "0",
     strStatus: "34'",
@@ -67,7 +67,7 @@ export const INITIAL_SIMULATED_MATCHES: Event[] = [
       "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
     idAwayTeam: "133676",
     strAwayTeamBadge:
-      "https://r2.thesportsdb.com/images/media/team/badge/cfh3ow1695750909.png",
+      "https://r2.thesportsdb.com/images/media/team/badge/x46tji1719860130.png",
     strVenue: "Parc des Princes",
     strCountry: "France",
     strThumb: "",

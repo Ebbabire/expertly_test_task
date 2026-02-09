@@ -14,7 +14,8 @@ const STATUS_VARIANT_CLASSES: Record<"red" | "green" | "gray", string> = {
 
 const MatchHeader: React.FC<MatchHeaderProps> = ({ match }) => {
   const displayDate = formatMatchDate(match.dateEvent);
-  const { label: statusLabel, variant: statusVariant } = getStatusDisplay(match);
+  const { label: statusLabel, variant: statusVariant } =
+    getStatusDisplay(match);
 
   return (
     <div className="px-6 mb-10">
@@ -52,7 +53,9 @@ const MatchHeader: React.FC<MatchHeaderProps> = ({ match }) => {
             <span className="text-[#2d2f39] opacity-50">-</span>
             <span>{match.intAwayScore || "0"}</span>
           </div>
-          <div className={`px-3 py-1 rounded text-[10px] font-black uppercase ${STATUS_VARIANT_CLASSES[statusVariant]}`}>
+          <div
+            className={`px-3 py-1 rounded text-[10px] font-black uppercase ${STATUS_VARIANT_CLASSES[statusVariant]}`}
+          >
             {statusLabel}
           </div>
         </div>

@@ -12,9 +12,8 @@ function parseMinute(status: string): number {
 
 /**
  * Pure function that advances simulated live matches forward in time.
- * - Each match's minute advances by a random 3-7 minutes
+ * - Each match's minute advances by a 1 minutes
  * - ~20% chance per match that a random team scores a goal
- * - Matches at 90+ minutes are set to "Match Finished"
  */
 export function advanceSimulatedMatches(matches: Event[]): Event[] {
   return matches.map((match) => {
@@ -22,8 +21,8 @@ export function advanceSimulatedMatches(matches: Event[]): Event[] {
     if (match.strStatus === "Match Finished") return match;
 
     const currentMinute = parseMinute(match.strStatus);
-    const advance = Math.floor(Math.random() * 5) + 3; // 3-7 minutes
-    const newMinute = currentMinute + advance;
+    // const advance = Math.floor(Math.random() * 5) + 3; // 3-7 minutes
+    const newMinute = currentMinute + 1;
 
     const updated = { ...match };
 
